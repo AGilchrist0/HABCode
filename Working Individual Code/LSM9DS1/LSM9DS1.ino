@@ -86,7 +86,7 @@ LSM9DS1 imu;
 void setup() 
 {
   
-  Serial.begin(115200);
+  Serial.begin(9600);
   
   // Before initializing the IMU, there are a few settings
   // we may need to adjust. Use the settings struct to set
